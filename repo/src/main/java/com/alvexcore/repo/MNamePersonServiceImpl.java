@@ -1,12 +1,11 @@
 package com.alvexcore.repo;
 
-    import org.alfresco.model.ContentModel;
-    import org.alfresco.repo.security.person.PersonServiceImpl;
-    import org.alfresco.service.namespace.QName;
-    import java.util.Collections;
-    import java.util.HashSet;
-    import java.util.Set;
-    import com.alvexcore.repo.MiddleNameContentModel;
+import org.alfresco.model.ContentModel;
+import org.alfresco.repo.security.person.PersonServiceImpl;
+import org.alfresco.service.namespace.QName;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Extending PersonService to support middle name.

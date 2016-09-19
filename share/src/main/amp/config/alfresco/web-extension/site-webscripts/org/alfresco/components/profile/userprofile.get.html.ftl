@@ -50,8 +50,9 @@ ${messages}
 <@markup id="html">
    <@uniqueIdDiv>
       <#assign displayname=profile.firstName>
-      <#if profile.lastName??><#assign displayname=profile.lastName + " " + displayname></#if>
       <#if profile.middleName??><#assign displayname=displayname + " " + profile.middleName></#if>
+      <#if profile.lastName??><#assign displayname=displayname +  " "  + profile.lastName></#if>
+
 
       <#macro immutablefield field>
          <#if profile.nativeUser.isImmutableProperty(field)>disabled="true"</#if>
