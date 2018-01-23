@@ -4,14 +4,14 @@
 
 By default Alfresco shows user first name and last name only. This extension adds user middle name to new user page and view user form in admin console, user profile, header.
 
-Compatible with Alfresco 5.1.
+Compatible with Alfresco 5.1 and 5.2.
 
-This component depends on:
+This component requires:
 * [Alvex Utils](https://github.com/ITDSystems/alvex-utils)
 
-# Downloads
+# Using this project
 
-Download ready-to-use Alvex components via [Alvex](https://github.com/ITDSystems/alvex#downloads).
+Recommended way to use Alvex components is to include them as dependencies to your Maven project. Follow [this guide](https://github.com/ITDSystems/alvex#recommended-way-include-alvex-to-your-project-via-maven-configuration) to include this component to your project.
 
 # Build from source
 
